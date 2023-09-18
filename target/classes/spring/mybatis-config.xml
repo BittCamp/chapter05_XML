@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "https://mybatis.org/dtd/mybatis-3-config.dtd">
+ <configuration>
+ 	<typeAliases>
+ 		<typeAlias type="user.bean.UserDTO" alias="user"/>
+ 	</typeAliases>
+ 	
+ 	<!-- <mappers> applicationContext.xml 24번째줄에 매퍼파일 설정해놔서 여긴 주석처리함. 이렇게도 되고 저기 파일에서 설정해도 됨.
+ 		<mapper resource="user/dao/userMapper.xml"/>
+ 	</mappers> -->
+ </configuration>
